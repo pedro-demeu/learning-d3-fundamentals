@@ -1,5 +1,6 @@
 import FirstD3Chart from "./Lessons/FirstD3Chart";
 import LinePlot from "./Lessons/LinePlot";
+import MyOwnChart from "./Lessons/MyOwnD3Chart";
 import "./reset.css";
 export default function App() {
   const data = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
@@ -23,6 +24,10 @@ export default function App() {
       >
         Learning D3 Fundamentals
       </h1>
+
+        <Container>
+          <MyOwnChart />
+        </Container>
 
       <Container>
         <FirstD3Chart />
